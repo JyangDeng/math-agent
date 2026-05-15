@@ -1,1 +1,38 @@
 .env 
+# ====== 数据/模型文件 ======
+*.pkl
+*.pickle
+*.faiss
+*.index
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.bin
+*.model
+*.joblib
+
+# ====== 数据集/大文件 ======
+*.zip
+*.tar.gz
+*.7z
+*.parquet
+*.feather
+*.csv.gz
+*.json.gz
+data/*.csv
+data/*.json
+
+# ====== 缓存文件 ======
+.cache/
+*.cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
